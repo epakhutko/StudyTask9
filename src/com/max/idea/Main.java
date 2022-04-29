@@ -19,8 +19,13 @@ public class Main {
         double[] Arr;
         Arr = new double[n];
         int sum=0;
-        for (int i=0; i<n; i++)
-            sum+=i+1;
+        for (int i=0; i<n; i++) {
+            System.out.printf("%d\n", i+1);
+            if (((i+1) % 2) == 1){
+                sum+=i+1;
+            }
+        }
+
 
         System.out.printf("The sum is equal to: %d\n", sum);
         return;
