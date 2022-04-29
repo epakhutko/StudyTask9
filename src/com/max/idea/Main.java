@@ -23,5 +23,6 @@ public class Main {
             sum+=i+1;
 
         System.out.printf("The sum is equal to: %d\n", sum);
+        return;
     }
 }
